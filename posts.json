@@ -1,0 +1,14 @@
+{ "posts": [{
+  "title": "3 Great Spring Beers",
+  "body": "With spring just around the corner, it's time to move from dark, heavy stouts, to lighter bodied beers. Here are a few of our favorites: Trumer Pils, Red Barn from Lost Abbey, and Lomaland from Modern Times",
+  "image": "http://www.lancasterbrewers.com/wp-content/uploads/2014/05/golden_ale_2_1.jpg"
+  }, {
+  "title": "All About Sours",
+  "body": "Sour beers have been booming in popularity recently, with a number of new, sour focused breweries springing up. Sours are brewed with bacteria which gives them their distinctive sourness. Initially they're far too assertive to drink, but a couple years of barrel aging to mellow them out can have delicious results.",
+  "image": "https://boozedancing.files.wordpress.com/2012/04/cuvee-des-jacobins-flemish-sour-ale.jpg"
+  }, {
+  "title": "Homebrewing Tips",
+  "body": "First, clean everything. You are a glorified janitor, and you should embrace your role as such. If you are brewing all grain, be mindful of mash temperatures; even a couple degrees of temperature variation can produce wildly different results. Be sure to wort as quickly as possible, this improves overall clarity and decreases risk of infection (a wort chiller is worth it!). Bottle conditioning varies by a number of different factors, be sure to adjust to what works for you and your bottles.",
+  "image": "http://www.homebrewing.org/assets/images/beginnerkit6.jpg"
+  }]
+}
