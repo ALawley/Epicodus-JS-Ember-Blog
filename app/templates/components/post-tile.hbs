@@ -1,4 +1,4 @@
 <li>
   <img src={{post.image}} alt={{post.title}}>
-  <h4>{{post.title}}</h4>
+  {{#link-to 'post' post.id}}<h4>{{post.title}}</h4>{{/link-to}}
 </li>
