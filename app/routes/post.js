@@ -38,6 +38,10 @@ export default Ember.Route.extend({
       });
       comment.save();
       this.transitionTo('post', params.post);
+    },
+
+    deleteComment(comment) {
+      comment.destroyRecord();
     }
   }
 });
