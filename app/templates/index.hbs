@@ -2,9 +2,7 @@
 
 <h3>Recent Posts:</h3>
 <ul>
-  {{#each model.posts as |post|}}
-    {{post-tile post=post}}
-  {{/each}}
+  {{post-list posts=model.posts}}
 </ul>
 
 <h4>Recent Comments:</h4>
