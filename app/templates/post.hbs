@@ -4,6 +4,12 @@
 
 {{edit-post post=model edit="edit"}}
 
+<ul>
+  {{#each model.comments as |comment|}}
+    {{comment-tile comment=comment edit="editComment"}}
+  {{/each}}
+</ul>
+
 {{new-comment commentSave2="commentSave3" post=model}}
 
-<button {{action 'delete' model}}>Delete</button>
+<button {{action 'delete' model}}>Delete Post</button>

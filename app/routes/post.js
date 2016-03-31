@@ -27,7 +27,16 @@ export default Ember.Route.extend({
       newComment.save().then(function() {
         return post.save();
       });
-      console.log("comment saved")
+      this.transitionTo('post', params.post);
+    },
+
+    editComment(comment, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key] !== undefined) {
+          comment.set(key,params[key]);
+        }
+      });
+      comment.save();
       this.transitionTo('post', params.post);
     }
   }
