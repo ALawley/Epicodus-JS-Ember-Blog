@@ -18,6 +18,17 @@ export default Ember.Route.extend({
       });
       post.save();
       this.transitionTo('index');
+    },
+
+    commentSave3(params) {
+      var newComment = this.store.createRecord('comment', params);
+      var post = params.post;
+      post.get('comments').addObject(newComment);
+      newComment.save().then(function() {
+        return post.save();
+      });
+      console.log("comment saved")
+      this.transitionTo('post', params.post);
     }
   }
 });
